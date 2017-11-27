@@ -1,0 +1,26 @@
+{
+  "name": "fuf-proxy",
+  "version": "1.0.0",
+  "main": "app.js",
+  "bin": {
+    "fuf-proxy": "./app.js"
+  },
+  "scripts": {
+    "postinstall": "mkdir -p ~/.fuf"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-http-proxy": "^1.1.0",
+    "is-running": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n2liquid/fuf-proxy.git"
+  },
+  "author": "Guilherme Prá Vieira (super.driver.512@gmail.com)",
+  "license": "AGPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/n2liquid/fuf-proxy/issues"
+  },
+  "homepage": "https://github.com/n2liquid/fuf-proxy#readme"
+}
